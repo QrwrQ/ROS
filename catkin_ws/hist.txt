@@ -1,0 +1,1000 @@
+ 1000  ls
+ 1001  source ./devel/setup.bash 
+ 1002  roslaunch comp4034 turtlebot3_corridors.launch
+ 1003  export TURTLEBOT3_MODEL=waffle
+ 1004  roslaunch comp4034 turtlebot3_corridors.launch
+ 1005  sudo apt-get install ros-melodic-image-transport ros-melodic-cv-bridge ros-melodic-vision-opencv python-opencv libopencv-dev ros-melodic-image-proc
+ 1006  cd s
+ 1007  cd src/
+ 1008  ls
+ 1009  catkin_create_pkg minitask3 rospy std_msgs geometry_msgs
+ 1010  source ../devel/setup.bash 
+ 1011  ls
+ 1012  cd minitask
+ 1013  cd minitask3
+ 1014  ls
+ 1015  cd src/
+ 1016  ls
+ 1017  vi minitask2.py 
+ 1018  vi mini3test.py
+ 1019  source ~/catkin_ws/devel/setup.bash 
+ 1020  ls 
+ 1021  chmod +x mini3test.py 
+ 1022  ls 
+ 1023  rosrun minitask3 mini3test.py 
+ 1024  vi mini3test.py
+ 1025  rosrun minitask3 mini3test.py 
+ 1026  vi mini3test.py
+ 1027  rosrun minitask3 mini3test.py 
+ 1028  vi mini3test.py
+ 1029  rosrun minitask3 mini3test.py 
+ 1030  vi mini3test.py
+ 1031  rosrun minitask3 mini3test.py 
+ 1032  vi mini3test.py
+ 1033  rosrun minitask3 mini3test.py 
+ 1034  vi mini3test.py
+ 1035  rosrun minitask3 mini3test.py 
+ 1036  vi mini3test.py
+ 1037  rosrun minitask3 mini3test.py 
+ 1038  vi mini3test.py
+ 1039  rosrun minitask3 mini3test.py 
+ 1040  vi mini3test.py
+ 1041  rosrun minitask3 mini3test.py 
+ 1042  vi mini3test.py
+ 1043  rosrun minitask3 mini3test.py 
+ 1044  os -ef
+ 1045  ps -ef
+ 1046  vi mini3test.py
+ 1047  rosrun minitask3 mini3test.py 
+ 1048  vi mini3test.py
+ 1049  rosrun minitask3 mini3test.py 
+ 1050  vi mini3test.py
+ 1051  rosrun minitask3 mini3test.py 
+ 1052  vi mini3test.py
+ 1053  rosrun minitask3 mini3test.py 
+ 1054  vi mini3test.py
+ 1055  rosrun minitask3 mini3test.py 
+ 1056  vi mini3test.py
+ 1057  rosrun minitask3 mini3test.py 
+ 1058  vi mini3test.py
+ 1059  rosrun minitask3 mini3test.py 
+ 1060  vi mini3test.py
+ 1061  rosrun minitask3 mini3test.py 
+ 1062  vi mini3test.py
+ 1063  rosrun minitask3 mini3test.py 
+ 1064  vi mini3test.py
+ 1065  rosrun minitask3 mini3test.py 
+ 1066  vi mini3test.py
+ 1067  rosrun minitask3 mini3test.py 
+ 1068  vi mini3test.py
+ 1069  rosrun minitask3 mini3test.py 
+ 1070  vi mini3test.py
+ 1071  rosrun minitask3 mini3test.py 
+ 1072  vi mini3test.py
+ 1073  rosrun minitask3 mini3test.py 
+ 1074  vi mini3test.py
+ 1075  rosrun minitask3 mini3test.py 
+ 1076  vi mini3test.py
+ 1077  rosrun minitask3 mini3test.py 
+ 1078  vi mini3test.py
+ 1079  rosrun minitask3 mini3test.py 
+ 1080  vi mini3test.py
+ 1081  rosrun minitask3 mini3test.py 
+ 1082  vi mini3test.py
+ 1083  rosrun minitask3 mini3test.py 
+ 1084  vi mini3test.py
+ 1085  rosrun minitask3 mini3test.py 
+ 1086  vi mini3test.py
+ 1087  rosrun minitask3 mini3test.py 
+ 1088  vi mini3test.py
+ 1089  rosrun minitask3 mini3test.py 
+ 1090  vi mini3test.py
+ 1091  rosrun minitask3 mini3test.py 
+ 1092  vi mini3test.py
+ 1093  rosrun minitask3 mini3test.py 
+ 1094  vi mini3test.py
+ 1095  rosrun minitask3 mini3test.py 
+ 1096  vi mini3test.py
+ 1097  rosrun minitask3 mini3test.py 
+ 1098  vi mini3test.py
+ 1099  rosrun minitask3 mini3test.py 
+ 1100  vi mini3test.py
+ 1101  rosrun minitask3 mini3test.py 
+ 1102  vi mini3test.py
+ 1103  rosrun minitask3 mini3test.py 
+ 1104  vi mini3test.py
+ 1105  rosrun minitask3 mini3test.py 
+ 1106  vi mini3test.py
+ 1107  rosrun minitask3 mini3test.py 
+ 1108  vi mini3test.py
+ 1109  rosrun minitask3 mini3test.py 
+ 1110  vi mini3test.py
+ 1111  cd ~/ars-2021-g15/
+ 1112  ls
+ 1113  cd src/
+ 1114  cd minitask3/
+ 1115  ls
+ 1116  cp ~/catkin_ws/src/minitask3/src/minitask2.py minitask3.py
+ 1117  ls
+ 1118  vi minitask3.py 
+ 1119  git add .
+ 1120  git commit -m "get green object slip"
+ 1121  git push
+ 1122  cd ~/
+ 1123  ;s
+ 1124  ls
+ 1125  cd ars-2021-g15/
+ 1126  ls
+ 1127  git pull
+ 1128  cp src/minitask2/src/minitask2.py ~/catkin_ws/src/minitask3/src/
+ 1129  cd ~/catkin_ws/
+ 1130  export TURTLEBOT3_MODEL=waffle
+ 1131  source ./devel/setup.bash 
+ 1132  roslaunch comp4034 turtlebot3_corridors.launch 
+ 1133  poweroff
+ 1134  rostopic list
+ 1135  rosmsg show camera/rgb/image_raw
+ 1136  rosmsg show /camera/rgb/image_raw
+ 1137  rosmsg show camera/rgb/image_raw
+ 1138  rosmsg show image_raw
+ 1139  cd ~/catkin_ws/
+ 1140  source ./devel/setup.bash 
+ 1141  export TURTLEBOT3_MODEL=waffle
+ 1142  roslaunch comp4034 turtlebot3_corridors.launch
+ 1143  source ./devel/setup.bash 
+ 1144  rosrun minitask3 mini3test.py 
+ 1145  ls
+ 1146  cd src/minitask3/src
+ 1147  vi mini3test.py 
+ 1148  cd src/minitask3/src
+ 1149  vi mini3test.py 
+ 1150  poweroff
+ 1151  vi ~/catkin_ws/src/minitask3/src/minitask2.py 
+ 1152  vi ~/catkin_ws/src/minitask3/src/mini3test.py 
+ 1153  export TURTLEBOT3_MODEL=waffle
+ 1154  cd ~/catkin_ws/
+ 1155  export TURTLEBOT3_MODEL=waffle
+ 1156  source ./devel/setup.bash 
+ 1157  export TURTLEBOT3_MODEL=waffle
+ 1158  roslaunch comp4034 turtlebot3_corridors.launch
+ 1159  poweroff
+ 1160  cd ~/catkin_ws/
+ 1161  source ./devel/setup.bash 
+ 1162  rosrun minitask3 mini3test.py 
+ 1163  cd ~/ars-2021-g15/src
+ 1164  git pull
+ 1165  cp minitask3/src/minitask3.py ~/catkin_ws/src/minitask3/src/minitask3_fi.oy
+ 1166  cd ~/catkin_ws/
+ 1167  source ./devel/setup.bash 
+ 1168  cd ~/catkin_ws/src/minitask3/src/
+ 1169  ls
+ 1170  mv minitask3_fi.oy minitask3_fi.py
+ 1171  ls
+ 1172  rosrun minitask3 minitask3_fi.py 
+ 1173  sudo pip install opencv-python
+ 1174  sudo pip install skbuild
+ 1175  sudo pip install opencv-python
+ 1176  pip install --upgrade setuptools
+ 1177  cd ~/catkin_ws/
+ 1178  ls
+ 1179  source ./devel/setup.bash 
+ 1180  export TURTLEBOT3_MODEL=waffle
+ 1181  roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+ 1182  roslaunch comp4034 turtlebot3_corridors.launch
+ 1183  cd ~/catkin_ws/~~
+ 1184  cd ~/catkin_ws/
+ 1185  source ./devel/setup.bash 
+ 1186  export TURTLEBOT3_MODEL=waffle
+ 1187  roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch
+ 1188  roslaunch comp4034 turtlebot3_corridors.launch
+ 1189  kill list
+ 1190  sudo pkill Xorg
+ 1191  cd ~/catkin_ws/
+ 1192  source ./devel/setup.bash 
+ 1193  rosrun minitask3 minitask3_fi.py
+ 1194  cd ~/catkin_ws/
+ 1195  ls
+ 1196  vim init_world.sh
+ 1197  i
+ 1198  chmod -x init_world.sh 
+ 1199  ls
+ 1200  chmod +x init_world.sh 
+ 1201  ls
+ 1202  ./init_world.sh 
+ 1203  poweroff
+ 1204  cd ~/catkin_ws/
+ 1205  source ./devel/setup.bash
+ 1206  rosrun minitask3 minitask3_fi.py 
+ 1207  clear
+ 1208  rosrun minitask3 minitask3_fi.py 
+ 1209  vi src/minitask3/src/minitask3_fi.py 
+ 1210  rosrun minitask3 minitask3_fi.py 
+ 1211  vi src/minitask3/src/minitask3_fi.py 
+ 1212  rosrun minitask3 minitask3_fi.py 
+ 1213  vi src/minitask3/src/minitask3_fi.py 
+ 1214  rosrun minitask3 minitask3_fi.py 
+ 1215  vi src/minitask3/src/minitask3_fi.py 
+ 1216  rosrun minitask3 minitask3_fi.py 
+ 1217  cd ~/catkin_ws/
+ 1218  source ./devel/setup.bash 
+ 1219  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1220  export TURTLEBOT3_MODEL=waffle
+ 1221  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1222  ls
+ 1223  cd ~/catkin_ws/
+ 1224  source ./devel/setup.bash 
+ 1225  roslaunch turtlebot3_gazebo turtlebot3_house.launch
+ 1226  export TURTLEBOT3_MODEL=waffle
+ 1227  roslaunch turtlebot3_gazebo turtlebot3_house.launch
+ 1228  cd ~/catkin_ws/
+ 1229  source ./devel/setup.bash 
+ 1230  roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+ 1231  export TURTLEBOT3_MODEL=waffle
+ 1232  roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+ 1233  ls
+ 1234  cd src/
+ 1235  ls
+ 1236  cd ars-2021-g15/
+ 1237  ls
+ 1238  cd src/
+ 1239  ls
+ 1240  cd minitask4
+ 1241  ls
+ 1242  cd ..
+ 1243  cd minitask4
+ 1244  ls
+ 1245  cd ..
+ 1246  cd ~/catkin_ws/
+ 1247  source ./devel/setup.bash 
+ 1248  rosrun map_server map_saver -f mymap
+ 1249  ls
+ 1250  turtlebot3_navigation turtlebot3_navigation.launch map_file:=`rospack find comp4034`
+ 1251  turtlebot3_navigation turtlebot3_navigation.launch map_file:=`rospack find comp4034`/src/minitask4/maps/mymap.yaml
+ 1252  turtlebot3_navigation turtlebot3_navigation.launch map_file:=`rospack find comp4034`mymap.yaml
+ 1253  cd /ca
+ 1254  cd catkin_ws/
+ 1255  cp init4.sh init4.2.sh
+ 1256  vi init4.
+ 1257  vi init4.2.sh 
+ 1258  ./init4.2.sh 
+ 1259  roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=`rospack find comp4034`/src/minitask4/maps/mymap.yaml
+ 1260  export TURTLEBOT3_MODEL=waffle
+ 1261  roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=`rospack find comp4034`/src/minitask4/maps/mymap.yaml
+ 1262  roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=~/catkin_ws/mymap.yaml
+ 1263  roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=mymap.yaml
+ 1264  rospack find comp4043
+ 1265  source ./devel/setup.bash 
+ 1266  rospack find comp4043
+ 1267  ls
+ 1268  cd src/
+ 1269  ls
+ 1270  cd minitask
+ 1271  cd minitask1
+ 1272  ;s
+ 1273  ls
+ 1274  vi package.xml 
+ 1275  cd .
+ 1276  cd ..
+ 1277  ls
+ 1278  cd ..
+ 1279  ls
+ 1280  rospack find minitask1
+ 1281  roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/home/rossi/catkin_ws/mymap.yaml
+ 1282  roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/home/rossi/catkin_ws/src/ars-2021-g15/src/minitask4/maps/mymap.yaml
+ 1283  ./init4.2.sh 
+ 1284  cd ~/catkin_ws/
+ 1285  cd src/
+ 1286  ls
+ 1287  cd minitask3
+ 1288  ls
+ 1289  cd src/
+ 1290  ls
+ 1291  cd ..
+ 1292  ls
+ 1293  cd minitask3
+ 1294  ls
+ 1295  vi package.xml 
+ 1296  ls
+ 1297  cd src/
+ 1298  ls
+ 1299  cd ..
+ 1300  ls
+ 1301  cd ..
+ 1302  ls
+ 1303  cd ars-2021-g15/
+ 1304  ls
+ 1305  cd src/
+ 1306  ls
+ 1307  cd minitask
+ 1308  cd minitask3
+ 1309  ls
+ 1310  cd ..
+ 1311  ls
+ 1312  cd ..
+ 1313  ls
+ 1314  vi package.xml 
+ 1315  cd ..
+ 1316  ls
+ 1317  lls
+ 1318  ls
+ 1319  cd src/
+ 1320  ls
+ 1321  cd ..
+ 1322  cp init_world.sh init4.sh
+ 1323  ls
+ 1324  vi init4.sh 
+ 1325  cd src/minitask4
+ 1326  ls
+ 1327  cd src/
+ 1328  ls
+ 1329  cd ars-2021-g15/
+ 1330  ls
+ 1331  cd s
+ 1332  cd src/
+ 1333  ls
+ 1334  mkdir minitask4
+ 1335  cd minitask4
+ 1336  ls
+ 1337  mkdir maps
+ 1338  ls
+ 1339  cd maps/
+ 1340  ks
+ 1341  ls
+ 1342  cd ~/ars-2021-g15/src/minitask4/
+ 1343  ls
+ 1344  cd src/
+ 1345  ls
+ 1346  cp navigation.py ~/catkin_ws/src/ars-2021-g15/src/minitask4/
+ 1347  ls
+ 1348  cd ~/catkin_ws/
+ 1349  source ./devel/setup.bash 
+ 1350  rosrun comp4034 navigation.py 
+ 1351  vi mymap.yaml 
+ 1352  ls
+ 1353  cd src/minitask2/src/
+ 1354  ls
+ 1355  rosrun minitask2 aviod_obstacle.py 
+ 1356  vi aviod_obstacle.py 
+ 1357  rosrun minitask2 aviod_obstacle.py 
+ 1358  vi aviod_obstacle.py 
+ 1359  rosrun minitask2 aviod_obstacle.py 
+ 1360  cd catkin_ws/
+ 1361  ls
+ 1362  cd ls
+ 1363  cd src/minitask4
+ 1364  cd src/ars-2021-g15/
+ 1365  cd src/
+ 1366  ls
+ 1367  cd minitask4
+ 1368  ls
+ 1369  cd maps/
+ 1370  vi mymap.yaml 
+ 1371  ls
+ 1372  cd ..
+ 1373  ls
+ 1374  vi navigation.py 
+ 1375  cd ~/ars-2021-g15/
+ 1376  ls
+ 1377  cd src/
+ 1378  ls
+ 1379  cd minitask4/
+ 1380  ls
+ 1381  cd src/
+ 1382  ls
+ 1383  vi occupancyGrid.py 
+ 1384  cp occupancyGrid.py  occupancyGrid_draw.py 
+ 1385  ls
+ 1386  git pull
+ 1387  vi occupancyGrid.py 
+ 1388  git pull
+ 1389  git add .
+ 1390  git commit -m "add draw the grid"
+ 1391  git log
+ 1392  git push
+ 1393  poweroff
+ 1394  ls
+ 1395  cd ars-2021-g15/
+ 1396  git pull
+ 1397  cd src/minitask4
+ 1398  ls
+ 1399  maps
+ 1400  cd maps/
+ 1401  ls
+ 1402  cp mymap.pgm ~/catkin_ws/src/ars-2021-g15/src/minitask4/maps/
+ 1403  cp mymap.yaml ~/catkin_ws/src/ars-2021-g15/src/minitask4/maps/
+ 1404  cd ~/catkin_ws/
+ 1405  ls
+ 1406  ./init4.sh 
+ 1407  vi init4.2.sh 
+ 1408  ./init4.sh 
+ 1409  cd ../ars-2021-g15/
+ 1410  git pull
+ 1411  cd src/minitask4/src/
+ 1412  ls
+ 1413  vi occupancyGrid.py 
+ 1414  cd ~/catkin_ws/
+ 1415  ./init4.sh 
+ 1416  ls
+ 1417  ./init_world.sh 
+ 1418  cd catkin_ws/
+ 1419  source ./devel/setup.bash 
+ 1420  cp ~/ars-2021-g15/src/minitask4/src/occupancyGrid_draw.py  ~/catkin_ws/src/minitask3/src/
+ 1421  rosrun minitask3 occupancyGrid_draw.py 
+ 1422  vi ~/catkin_ws/src/minitask3/src/occupancyGrid_draw.py 
+ 1423  rosrun minitask3 occupancyGrid_draw.py 
+ 1424  vi ~/catkin_ws/src/minitask3/src/occupancyGrid_draw.py 
+ 1425  rosrun minitask3 occupancyGrid_draw.py 
+ 1426  vi ~/catkin_ws/src/minitask3/src/occupancyGrid_draw.py 
+ 1427  rosrun minitask3 occupancyGrid_draw.py 
+ 1428  /usr/bin/python
+ 1429  cd ./catkin_ws/
+ 1430  ./init_world.sh 
+ 1431  vi ~/catkin_ws/src/minitask3/src/occupancyGrid_draw.py 
+ 1432  poweroff
+ 1433  cd catkin_ws/
+ 1434  source ./devel/setup.bash 
+ 1435  rosrun minitask3 occupancyGrid_draw.py 
+ 1436  cd catkin_ws/
+ 1437  cp init_world.sh blank_word.sh
+ 1438  vi blank_word.sh 
+ 1439  ./blank_word.sh 
+ 1440  cd catkin_ws/
+ 1441  source ./devel/setup.bash 
+ 1442  export TURTLEBOT3_MODEL=waffle
+ 1443  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1444  cd catkin_ws/
+ 1445  source ./devel/
+ 1446  source ./devel/setup.bash 
+ 1447  rosrun minitask3 occupancyGrid_draw.py 
+ 1448  git pull
+ 1449  cd ../ars-2021-g15/
+ 1450  git pull
+ 1451  ls
+ 1452  ls
+ 1453  cd minitask
+ 1454  ls
+ 1455  cd minitask4
+ 1456  ls
+ 1457  cd src/
+ 1458  ls
+ 1459  git pull
+ 1460  git reset --hard
+ 1461  git pull
+ 1462  cd ~/catkin_ws/
+ 1463  rosrun minitask3 occupancyGrid_draw.py 
+ 1464  clear
+ 1465  cd ~/ars-2021-g15/
+ 1466  git pull
+ 1467  cd src/minitask4/src/
+ 1468  ls
+ 1469  rm occupancyGrid_draw.py 
+ 1470  cp ~/catkin_ws/src/minitask3/src/occupancyGrid_draw.py 
+ 1471  cp ~/catkin_ws/src/minitask3/src/occupancyGrid_draw.py ~/ars-2021-g15/src/minitask4/src
+ 1472  ls
+ 1473  git add .
+ 1474  git commit -m 'simply finish the grid and show'
+ 1475  git push
+ 1476  cd catkin_ws/
+ 1477  source ./devel/setup.bash 
+ 1478  export TURTLEBOT3_MODEL=waffle
+ 1479  roslaunch turtlebot3_navigation turtlebot3_navigation.launch
+ 1480  roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=`f
+ 1481  roslaunch turtlebot3_navigation turtlebot3_navigation.launch
+ 1482  cd catkin_ws/
+ 1483  source ./devel/setup.bash 
+ 1484  roslaunch turtlebot3_navigation turtlebot3_navigation.launch
+ 1485  export TURTLEBOT3_MODEL=waffle
+ 1486  roslaunch turtlebot3_navigation turtlebot3_navigation.launch
+ 1487  cd catkin_ws/
+ 1488  cd src/ars-2021-g15/
+ 1489  ls
+ 1490  git pull
+ 1491  git reset --hard
+ 1492  git pull
+ 1493  rm src/minitask4/maps/mymap.pgm 
+ 1494  rm src/minitask4/maps/mymap.yaml 
+ 1495  git pull
+ 1496  cd ~/catkin_ws/
+ 1497  ls
+ 1498  ./init4.2.sh 
+ 1499  ls
+ 1500  ./init4.sh
+ 1501  cd catkin_ws/
+ 1502  source ./devel/setup.bash 
+ 1503  rosrun comp4034 occupancyGrid.py 
+ 1504  cd catkin_ws/
+ 1505  cd src/
+ 1506  catkin_create_pkg minitask1 rospy std_msgs geometry_msgs
+ 1507  catkin_create_pkg minitask4 rospy std_msgs geometry_msgs
+ 1508  catkin_create_pkg assignment rospy std_msgs geometry_msgs
+ 1509  cd assignment/
+ 1510  ls
+ 1511  cd src/
+ 1512  cd ..
+ 1513  mkdir launch
+ 1514  mkdir maps
+ 1515  cd ~/catkin_ws/
+ 1516  ls
+ 1517  cd src/
+ 1518  ls
+ 1519  cd assignment/
+ 1520  ls
+ 1521  cp -r launch ~/catkin_ws/src/assignment/launch/
+ 1522  cp -r launc/h ~/catkin_ws/src/assignment/launch/
+ 1523  cp -r launch/ ~/catkin_ws/src/assignment/launch/
+ 1524  cp -r launch/ ~/catkin_ws/src/assignment/launch
+ 1525  cp -r maps/ ~/catkin_ws/src/assignment/maps
+ 1526  cd ~/catkin_ws/src/assignment/
+ 1527  ls
+ 1528  cd launch/
+ 1529  ls
+ 1530  rm launch/
+ 1531  rm -r launch
+ 1532  ls
+ 1533  cd ..
+ 1534  rm -r launch/
+ 1535  ls
+ 1536  rm -r maps/
+ 1537  ls
+ 1538  cd ~/ars-2021-g15/src/assignment/
+ 1539  cp maps ~/catkin_ws/src/assignment/
+ 1540  cp -r maps ~/catkin_ws/src/assignment/
+ 1541  cp -r launch/ ~/catkin_ws/src/assignment/
+ 1542  clar
+ 1543  claer
+ 1544  clear
+ 1545  cd ~/catkin_ws/
+ 1546  source ./devel/setup.bash 
+ 1547  export TURTLEBOT3_MODEL=waffle
+ 1548  cd src/
+ 1549  ls
+ 1550  cd assignment/
+ 1551  ls
+ 1552  vi CMakeLists.txt 
+ 1553  cd ..
+ 1554  cd ars-2021-g15/
+ 1555  git pull
+ 1556  roslaunch comp4034 turtlebot3_training.launch 
+ 1557  git add .
+ 1558  git commit -m 'update the map'
+ 1559  git push
+ 1560  ls
+ 1561  cd ~/catkin_ws/src/ars-2021-g15/src/assignment/maps/
+ 1562  ls
+ 1563  rm generatedmap.pgm 
+ 1564  rm mymap.yaml 
+ 1565  rm mymap.pgm 
+ 1566  ls
+ 1567  rm generatedmap.yaml 
+ 1568  ls
+ 1569  cd catkin_ws/
+ 1570  source ./devel/setup.bash 
+ 1571  export TURTLEBOT3_MODEL=waffle
+ 1572  roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=`rospack find comp4034`/src/assignment/maps/mymap.yaml
+ 1573  roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=`rospack find comp4034`/src/assignment/maps/generatedmap.yaml
+ 1574  roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=`rospack find comp4034`/src/assignment/maps/genetrain_env.yaml
+ 1575  roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=`rospack find comp4034`/src/assignment/maps/train_env.yaml
+ 1576  poweroff
+ 1577  ls
+ 1578  cd ~/catkin_ws/
+ 1579  ls
+ 1580  mkdir init_set
+ 1581  ls
+ 1582  mv init4.sh init_set/
+ 1583  ls
+ 1584  mv init4.2.sh init_set/
+ 1585  mv init_world.sh init_set/
+ 1586  ls
+ 1587  cd init_set/
+ 1588  ls
+ 1589  cp init_world.sh ass_world.sh
+ 1590  ls
+ 1591  vi ass_world.sh 
+ 1592  ls
+ 1593  ./ass_world.sh 
+ 1594  cd..
+ 1595  cd ..
+ 1596  ./init_set/ass_world.sh 
+ 1597  cd ~/catkin_ws/
+ 1598  source ./devel/setup.bash 
+ 1599  rosrun comp4034 minitask3.py 
+ 1600  cd src/ars-2021-g15/src/minitask3/
+ 1601  ls
+ 1602  cd src/
+ 1603  ls
+ 1604  cp minitask3.py ~/catkin_ws/src/ars-2021-g15/src/assignment/src/assignment.py
+ 1605  ls
+ 1606  cd ..
+ 1607  cd ../assignment/
+ 1608  ls
+ 1609  cd src/
+ 1610  ls
+ 1611  cd ..
+ 1612  rosrun comp4034 minitask3.py 
+ 1613  rosrun comp4034 assignment.py
+ 1614  poweroff
+ 1615  cd catkin_ws/
+ 1616  source devel/setup.bash 
+ 1617  rosrun comp4034 assignment.py 
+ 1618  rosrun comp4034 minitask3.py 
+ 1619  rosrun comp4034 assignment.py 
+ 1620  rosrun comp4034 minitask3.py 
+ 1621  rosrun comp4034 assignment.py 
+ 1622  rosrun comp4034 minitask3.py 
+ 1623  rosrun comp4034 assignment.py 
+ 1624  cd src/ars-2021-g15/
+ 1625  git add .
+ 1626  git commit -m 'color recognition'
+ 1627  git push
+ 1628  poweroff
+ 1629  ls
+ 1630  cd catkin_ws/
+ 1631  ls
+ 1632  cd src/assignment/
+ 1633  ls
+ 1634  cd src/
+ 1635  ls
+ 1636  cd ~/catkin_ws/
+ 1637  clear
+ 1638  source ./devel/setup.bash 
+ 1639  rosrun comp4034 controller.py 
+ 1640  rosrun comp4034 assignment.py 
+ 1641  rosrun comp4034 controller.py 
+ 1642  ped
+ 1643  pwd
+ 1644  cd src/assignment/
+ 1645  cd ..
+ 1646  cd ars-2021-g15/src/assignment/
+ 1647  ls
+ 1648  cd maps/
+ 1649  pwd
+ 1650  cd ~/catkin_ws/
+ 1651  rosrun comp4034 controller.py 
+ 1652  cp ~/catkin_ws/src/assignment/src/assignment.py ~/catkin_ws/src/ars-2021-g15/src/assignment/src/
+ 1653  rosrun comp4034 assignment.py 
+ 1654  rosrun comp4034 c
+ 1655  rosrun comp4034 controller.py 
+ 1656  rosrun comp4034 assignment.py 
+ 1657  rosrun comp4034 controller.py 
+ 1658  ls
+ 1659  cd catkin_ws/
+ 1660  ls
+ 1661  cd src/
+ 1662  ls
+ 1663  cd assignment/
+ 1664  ls
+ 1665  cd s
+ 1666  cd src/
+ 1667  ;s
+ 1668  ls
+ 1669  cd ..
+ 1670  ls
+ 1671  cd src/
+ 1672  ls
+ 1673  cd ars-2021-g15/
+ 1674  ls
+ 1675  cd src/
+ 1676  ls
+ 1677  cd assignment/
+ 1678  ls
+ 1679  cd src/
+ 1680  ls
+ 1681  cp assignment.py ~/catkin_ws/src/assignment/src/
+ 1682  cp  occupancyGrid_draw.py ~/catkin_ws/src/assignment/src/
+ 1683  ls
+ 1684  git pull
+ 1685  ls
+ 1686  cp ~/catkin_ws/src/assignment/src/assignment.py ~/catkin_ws/src/ars-2021-g15/src/assignment/src/
+ 1687  rm assignment.py 
+ 1688  git pull
+ 1689  cd ..
+ 1690  ls
+ 1691  cd assignment/
+ 1692  ls
+ 1693  git pull
+ 1694  ls
+ 1695  cd src/
+ 1696  ls
+ 1697  lsls
+ 1698  ls
+ 1699  rm assignment.py 
+ 1700  git add .
+ 1701  git commit -m 'add caculate angle function get_angle'
+ 1702  git push
+ 1703  cd catkin_ws/
+ 1704  ./init_set/ass_world.sh 
+ 1705  poweroff
+ 1706  cd catkin_ws/
+ 1707  ./init_set/ass_world.sh 
+ 1708  cp ~/catkin_ws/src/ars-2021-g15/src/assignment/src/controller.py ~/catkin_ws/src/assignment/src/
+ 1709  cd ~/catkin_ws/src/assignment/
+ 1710  ls
+ 1711  cd src/
+ 1712  ls
+ 1713  cd ..
+ 1714  ls
+ 1715  cd ars-2021-g15/src/assignment/
+ 1716  ls
+ 1717  pwd
+ 1718  cp ~/catkin_ws/src/assignment/src/assignment.py ~/catkin_ws/src/ars-2021-g15/src/assignment/src/
+ 1719  cd catkin_ws/
+ 1720  source ./devel/
+ 1721  source ./devel/setup.bash 
+ 1722  rosrun comp4034 controller.py 
+ 1723  rosrun comp4034 assignment.py 
+ 1724  rosrun comp4034 controller.py 
+ 1725  poweroff
+ 1726  cd catkin_ws
+ 1727  git log
+ 1728  cd src/ars-2021-g15/
+ 1729  git log
+ 1730  git reset -hard 97f6fe8f2ae1a9f37482dc77ce8f0ca4475a07b6
+ 1731  git reset --hard 97f6fe8f2ae1a9f37482dc77ce8f0ca4475a07b6
+ 1732  git pull
+ 1733  git reset --hard 97f6fe8f2ae1a9f37482dc77ce8f0ca4475a07b6
+ 1734  git pull
+ 1735  cd catkin_ws/
+ 1736  ./init_set/ass_world.sh 
+ 1737  poweroff
+ 1738  cd catkin_ws/
+ 1739  source ./devel/setup.bash 
+ 1740  rosrun comp4034 controller.py 
+ 1741  cd catkin_ws/
+ 1742  source ./devel/setup.bash 
+ 1743  export TURTLEBOT3_MODEL=waffle
+ 1744  roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=`rospack find comp4034`/src/assignment/maps/train_env.yaml
+ 1745  cd catkin_ws/
+ 1746  ./init_set/ass_world.sh 
+ 1747  cd ~/catkin_ws/src/ars-2021-g15/
+ 1748  cd src/assignment/
+ 1749  ls
+ 1750  pwd
+ 1751  git branch 
+ 1752  git add .
+ 1753  git commit -m 'solve path problrm'
+ 1754  git push
+ 1755  ls
+ 1756  cd src/
+ 1757  ls
+ 1758  rm assignment.py 
+ 1759  git add .
+ 1760  git commit -m 'solved path problem'
+ 1761  git push
+ 1762  cd ~/catkin_ws/
+ 1763  ls
+ 1764  cd src/
+ 1765  ls
+ 1766  cd turtlebot3/turtlebot3_navigation/launch/
+ 1767  ls
+ 1768  vi move_base.launch 
+ 1769  cp ~/catkin_ws/src/ars-2021-g15/src/assignment/src/controller.py ~/catkin_ws/src/assignment/src/
+ 1770  cd ~/catkin_ws/src/assignment/src/
+ 1771  ls
+ 1772  vi controller.py 
+ 1773  cp ~/catkin_ws/src/ars-2021-g15/src/assignment/src/lib/sensors.py ~/catkin_ws/src/assignment/src/
+ 1774  ls
+ 1775  cd ~/catkin_ws/src/ars-2021-g15/
+ 1776  git log 
+ 1777  git reset --hard 317312f6a3d4ef66bd6a9139ed71eec72ebb99aa
+ 1778  cd catkin_ws/
+ 1779  source ./devel/setup.bash 
+ 1780  rosrun comp4034 controller.py 
+ 1781  cd catkin_ws/
+ 1782  ./init_set/ass_world.sh 
+ 1783  cd src/ars-2021-g15/
+ 1784  git add .
+ 1785  git commit -m 'improve blue recognition by using second method'
+ 1786  git push
+ 1787  cp ~/catkin_ws/src/ars-2021-g15/src/assignment/src/controller.py ~/catkin_ws/src/minitask1/src/
+ 1788  git pull
+ 1789  git log
+ 1790  git reset --hard 317312f6a3d4ef66bd6a9139ed71eec72ebb99aa
+ 1791  git pull
+ 1792  ./init_set/ass_world.sh 
+ 1793  cd ~/catkin_ws/
+ 1794  ./init_set/ass_world.sh 
+ 1795  cd src/ars-2021-g15/
+ 1796  git add .
+ 1797  git commit -m 'improve blue recognition by using second method'
+ 1798  git push
+ 1799  cd ~/catkin_ws/src/minitask1/src/
+ 1800  ls
+ 1801  vi controller.py 
+ 1802  poweroff
+ 1803  ls
+ 1804  cd catkin_ws/
+ 1805  ls
+ 1806  cd init_set/
+ 1807  ls
+ 1808  cd ..
+ 1809  ./init_set/ass_world.sh 
+ 1810  •http://wiki.ros.org/video_stream_opencv
+ 1811  roslaunch turtlebot3_gazebo turtlebot3_world.launch
+ 1812  rostopic
+ 1813  rostopic list
+ 1814  cd catkin_ws/
+ 1815  ls
+ 1816  cd src/
+ 1817  ls
+ 1818  cd ars-2021-g15/
+ 1819  ls
+ 1820  cd src/
+ 1821  ls
+ 1822  cd assignment/
+ 1823  ls
+ 1824  cd launch/
+ 1825  ls
+ 1826  vi comp4034_test.launch 
+ 1827  vi turtlebot3_training.launch 
+ 1828  vi pointCloud_processing.launch 
+ 1829  cd catkin_ws/
+ 1830  ls
+ 1831  source ./devel/setup.bash 
+ 1832  cd ..
+ 1833  ls
+ 1834  cd rossi/
+ 1835  ls
+ 1836  cd ars-2021-g15/
+ 1837  ls
+ 1838  cd ../catkin_ws/
+ 1839  ls
+ 1840  cd src/
+ 1841  ls
+ 1842  cd assignment/
+ 1843  ls
+ 1844  cd src/
+ 1845  ls
+ 1846  python controller.py 
+ 1847  cd ../../
+ 1848  ls
+ 1849  cd ars-2021-g15/
+ 1850  ls
+ 1851  cd src/
+ 1852  ls
+ 1853  cd assignment/
+ 1854  ls
+ 1855  cd src/
+ 1856  ls
+ 1857  python controller.py 
+ 1858  rosrun comp4034 controller.py 
+ 1859  rosrun controller.py 
+ 1860  cd ../../..
+ 1861  ls
+ 1862  cd ..
+ 1863  ls
+ 1864  rosrun comp4034 controller.py 
+ 1865  cd ar
+ 1866  cd ars-2021-g15/
+ 1867  rosrun comp4034 controller.py 
+ 1868  source ./devel/setup.bash 
+ 1869  ls
+ 1870  cd ..
+ 1871  la
+ 1872  cd ..
+ 1873  ls
+ 1874  source ./devel/setup.bash 
+ 1875  cat init_set/ass_world.sh 
+ 1876  ls
+ 1877  cd src/
+ 1878  ls
+ 1879  cd assignment/
+ 1880  ./init_set/ass_world.sh 
+ 1881  ./../../init_set/ass_world.sh 
+ 1882  cd catkin_ws/
+ 1883  source ./devel/setup.bash 
+ 1884  rosrun comp4034 controller.py 
+ 1885  cd catkin_ws/
+ 1886  ls
+ 1887  cd src/
+ 1888  ls
+ 1889  cd ars-2021-g15/
+ 1890  rosrun comp4034 controller.py 
+ 1891  ls
+ 1892  ls
+ 1893  cd ars-2021-g15/
+ 1894  ls
+ 1895  cd src/
+ 1896  ls
+ 1897  cd assignment/
+ 1898  ls
+ 1899  cd launch/
+ 1900  ls
+ 1901  cd ..
+ 1902  cd src/
+ 1903  ls
+ 1904  cd ..
+ 1905  l
+ 1906  cd ..
+ 1907  ls
+ 1908  cd minitask
+ 1909  cd minitask3
+ 1910  ls
+ 1911  cd src/
+ 1912  ls
+ 1913  lear
+ 1914  clear
+ 1915  cd ..
+ 1916  ls
+ 1917  cd ..
+ 1918  ls
+ 1919  cd ..
+ 1920  ls
+ 1921  cd ../..
+ 1922  ls
+ 1923  cd rossi/
+ 1924  ls
+ 1925  cd catkin_ws/
+ 1926  ls
+ 1927  cd src/
+ 1928  ls
+ 1929  cd ars-2021-g15/
+ 1930  ls
+ 1931  cd src/
+ 1932  ls
+ 1933  cd assignment/
+ 1934  ls
+ 1935  cd maps/
+ 1936  ls
+ 1937  cd ..
+ 1938  ls
+ 1939  cd src/
+ 1940  ls
+ 1941  cd ../../..
+ 1942  ;s
+ 1943  ls
+ 1944  cd ..
+ 1945  ls
+ 1946  cd minitask3
+ 1947  ls
+ 1948  cd src/
+ 1949  ls
+ 1950  cd ..
+ 1951  ls
+ 1952  cd ..
+ 1953  ls
+ 1954  vi init_set/
+ 1955  vi init_set
+ 1956  cat init_set/
+ 1957  cat init_set
+ 1958  cd init_set/
+ 1959  ls
+ 1960  vi init_world.sh 
+ 1961  ./ass_world.sh 
+ 1962  cd ..
+ 1963  ./ass_world.sh \
+ 1964  ./ass_world.sh
+ 1965  ./init_set/ass_world.sh
+ 1966  poweroff
+ 1967  ls
+ 1968  cd ars-2021-g15/
+ 1969  ls
+ 1970  cd src/
+ 1971  ls
+ 1972  cd assignment/
+ 1973  ls
+ 1974  cd ../..
+ 1975  cd ..
+ 1976  cd catkin_ws/
+ 1977  ls
+ 1978  cd src
+ 1979  ls
+ 1980  cd ..
+ 1981  ls
+ 1982  cd ..
+ 1983  ls
+ 1984  cd catkin_ws/
+ 1985  ls
+ 1986  ./init_set/ass_world.sh 
+ 1987  cd catkin_ws/
+ 1988  source ./devel/setup.bash 
+ 1989  rosrun comp4034 controller.py
+ 1990  history
+ 1991  zip -r catkin_ws.zip catkin_ws/
+ 1992  ls
+ 1993  history
+ 1994  poweroff
+ 1995  ls
+ 1996  cd catkin_ws/
+ 1997  ls
+ 1998  history
+ 1999  history > hist.txt
